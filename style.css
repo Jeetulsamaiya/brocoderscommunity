@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #394952;
+}
+
+#svg1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#svg1 path {
+    stroke-dasharray: 1384;
+    stroke-dashoffset: 1384;
+    animation: anim1 ease forwards 5s 1s;
+}
+
+#svg2 {
+    position: absolute;
+    top: 60%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+
+#svg2 path {
+    stroke-dasharray: 327;
+    stroke-dashoffset: 327;
+    animation: anim1 ease forwards 5s 1s;
+}
+
+#svg3 {
+    position: absolute;
+    top: 60%;
+    left: 55.5%;
+    transform: translate(-50%, -50%) rotate(-7deg);
+}
+
+#svg3 path {
+    stroke-dasharray: 191;
+    stroke-dashoffset: 191;
+    animation: anim1 ease forwards 5s 1s;
+}
+
+#svg4 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#svg4 path {
+    stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+    animation: anim1 ease forwards 5s 1s;
+}
+
+#svg6 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+#svg6 .B {
+    stroke-dasharray: 291;
+    stroke-dashoffset: 291;
+    animation: anim1 ease forwards 3s .2s;
+}
+
+#svg6 .R {
+    stroke-dasharray: 204;
+    stroke-dashoffset: 204;
+    animation: anim1 ease forwards 3s .4s;
+}
+
+#svg6 .O {
+    stroke-dasharray: 207;
+    stroke-dashoffset: 207;
+    animation: anim1 ease forwards 3s .6s;
+}
+
+#svg6 .C {
+    stroke-dasharray: 420;
+    stroke-dashoffset: 420;
+    animation: anim1 ease forwards 3s .8s;
+}
+
+#svg6 .OO {
+    stroke-dasharray: 207;
+    stroke-dashoffset: 207;
+    animation: anim1 ease forwards 3s 1s;
+}
+
+#svg6 .D {
+    stroke-dasharray: 298;
+    stroke-dashoffset: 298;
+    animation: anim1 ease forwards 3s 1.2s;
+}
+
+#svg6 .E {
+    stroke-dasharray: 293;
+    stroke-dashoffset: 293;
+    animation: anim1 ease forwards 3s 1.4s;
+}
+
+#svg6 .RR {
+    stroke-dasharray: 204;
+    stroke-dashoffset: 204;
+    animation: anim1 ease forwards 3s 1.8s;
+}
+
+#svg6 .S {
+    stroke-dasharray: 358;
+    stroke-dashoffset: 358;
+    animation: anim1 ease forwards 3s 2s;
+}
+
+#svg6 .CC {
+    stroke-dasharray: 420;
+    stroke-dashoffset: 420;
+    animation: anim1 ease forwards 3s 2.2s;
+}
+
+#svg6 .OOO {
+    stroke-dasharray: 207;
+    stroke-dashoffset: 207;
+    animation: anim1 ease forwards 3s 2.4s;
+}
+
+#svg6 .M {
+    stroke-dasharray: 539;
+    stroke-dashoffset: 539;
+    animation: anim1 ease forwards 3s 2.6s;
+}
+
+#svg6 .MM {
+    stroke-dasharray: 539;
+    stroke-dashoffset: 539;
+    animation: anim1 ease forwards 3s 2.8s;
+}
+
+#svg6 .U {
+    stroke-dasharray: 343;
+    stroke-dashoffset: 343;
+    animation: anim1 ease forwards 3s 3s;
+}
+
+#svg6 .N {
+    stroke-dasharray: 347;
+    stroke-dashoffset: 347;
+    animation: anim1 ease forwards 3s 3.2s;
+}
+
+#svg6 .I {
+    stroke-dasharray: 157;
+    stroke-dashoffset: 157;
+    animation: anim1 ease forwards 3s 3.4s;
+}
+
+#svg6 .T {
+    stroke-dasharray: 257;
+    stroke-dashoffset: 257;
+    animation: anim1 ease forwards 3s 3.6s;
+}
+
+#svg6 .Y {
+    stroke-dasharray: 358;
+    stroke-dashoffset: 358;
+    animation: anim1 ease forwards 3s 3.8s;
+}
+
+@keyframes opa {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes anim1 {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: white;
+    }
+}
